@@ -1,0 +1,29 @@
+{
+  "name": "vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "buildOptions": {
+    "name": "Vue",
+    "formats": [
+      "esm-bundler",
+      "esm-bundler-runtime",
+      "cjs",
+      "global",
+      "global-runtime",
+      "esm-browser",
+      "esm-browser-runtime"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vue/shared": "3.2.39",
+    "@vue/compiler-dom": "3.2.39",
+    "@vue/runtime-dom": "3.2.39"
+  }
+}
